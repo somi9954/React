@@ -35,7 +35,7 @@ emoji={"😒"}
 }}color={"navy"} name={"황인범"} emoji={"😘"}></Welcome> */}
 
 
-
+/* 
 const soccer = [
   {
     name: "손흥민",
@@ -69,7 +69,7 @@ const soccer = [
       console.log("저는 황희찬입니다.");
     }
   }
-];
+]; */
 
 {/* 
 return (
