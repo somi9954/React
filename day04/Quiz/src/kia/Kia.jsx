@@ -1,12 +1,12 @@
-import Calendar from "./Calendar";
+import Calendar from "./Calender";
 
 const Kia = () => {
   const thisYear = Array(365)
     .fill(0)
     .map((v, i) => {
       return {
-        dayNum: new Date(1900 + new Date().getYear(), 0, i + 1).getDay(),
-        date: new Date(1900 + new Date().getYear(), 0, i + 1).getDate(),
+        dayNum: new Date(new Date().getFullYear(), 0, i + 1).getDay(),
+        date: new Date(new Date().getFullYear(), 0, i + 1).getDate(),
       };
     });
 
