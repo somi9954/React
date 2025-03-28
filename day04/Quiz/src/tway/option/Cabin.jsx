@@ -1,10 +1,10 @@
 import { MdLuggage } from "react-icons/md";
 
-const Cabin = () => {
+const Cabin = (props) => {
   return (
     <div style={{ display: "flex", gap: "10px", alignItems: "center" }}>
       <MdLuggage />
-      <span>10KG</span>
+      <span>{props.cabinWeight}KG</span>
     </div>
   );
 };
