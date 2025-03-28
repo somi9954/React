@@ -9,7 +9,6 @@ const Option = () => {
         padding: "20px",
         display: "flex",
         flexDirection: "column",
-        gap: "10px",
       }}
     >
       <Seat />

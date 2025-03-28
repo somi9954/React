@@ -1,8 +1,9 @@
-import Option from "./Title";
+import Option from "./Option";
 import Price from "./Price";
 import Title from "./Title";
 
-const CostCard = () => {
+const CostCard = (num ) => {
+  console.log("num",num)
   return (
     <div style={{ display: "flex" }}>
       <div
@@ -13,7 +14,7 @@ const CostCard = () => {
           border: "1px solid #efefef"
         }}
       >
-        <Title />
+        <Title  costName={num}/>
         <Option />
         <Price />
       </div>
