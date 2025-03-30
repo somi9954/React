@@ -1,31 +1,63 @@
 import Button from "./Button";
 import Day from "./Day";
-import Vss from "./Vss";
 import Image from "./Image";
+import Vss from "./Vss";
 
 const SoccerCard = (props) => {
   return (
     <div
       style={{
         borderTop: "1px solid #dfdfdf",
-        borderBottom: "1px solid #dfdfdf",
-        alignItems: "center",
+        alignItems: "center"
       }}
     >
       <div>
         <div
           style={{
             display: "flex",
-            gap: "20px",
+            gap: "40px",
             padding: "20px",
-            textAlign: "center",
+            alignItems: "center"
           }}
         >
           <Day {...props} />
           <Image {...props} />
-          <Vss {...props} />
-          <span style={{ alignContent: "center" }}>서울월드컵경기장</span>
-          <Button />
+
+          <div
+            style={{
+              display: "flex",
+              flex: 1,
+              alignItems: "center",
+              justifyContent: "space-around",
+              minWidth: "0"
+            }}
+          >
+            <div
+              style={{
+                minWidth: "130px",
+                fontWeight: "bold"
+              }}
+            >
+              <Vss {...props} />
+            </div>
+            <div
+              style={{
+                minWidth: "120px",
+                fontSize: "12px",
+                textAlign: "center",
+                whiteSpace: "nowrap"
+              }}
+            >
+              서울월드컵경기장
+            </div>
+            <div
+              style={{
+                textAlign: "right"
+              }}
+            >
+              <Button {...props} />
+            </div>
+          </div>
         </div>
       </div>
     </div>
