@@ -1,11 +1,5 @@
 const Input = (props) => {
-  return (
-    <input
-      type="text"
-      value={props.value}
-      onChange={(e) => props.onChange(e.target.value)} 
-    />
-  );
+  return <input onChange={(e) => props.onChange(e.target.value)} type="text" />;
 };
 
 export default Input;
