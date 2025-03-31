@@ -1,8 +1,9 @@
 const Input = (props) => {
   return (
     <input
-      onChange={(e) => props.value((prev) => e.target.value)}
       type="text"
+      value={props.value}
+      onChange={(e) => props.onChange(e.target.value)} 
     />
   );
 };
