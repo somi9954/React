@@ -1,5 +1,5 @@
 import Input from "./Input";
-import Text from "./Text";
+import Text from "./Input";
 
 const Register = () => {
   const [value, setValue] = useState("");
