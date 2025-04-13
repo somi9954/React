@@ -1,0 +1,14 @@
+.inputBox {
+  border: 2px solid #efefef;
+  border-radius: 10px;
+}
+.input {
+  /* 추가 */
+  height: 100%;
+  border-radius: 10px;
+
+  width: 100%;
+  line-height: 1.5;
+  border: none;
+  outline: none;
+}

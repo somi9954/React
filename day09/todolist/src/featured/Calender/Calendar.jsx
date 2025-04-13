@@ -1,13 +1,18 @@
+import { useState } from "react";
+import { CurrentTime } from "../../shared/util/whatTime";
 import styles from "./Calendar.module.css";
-import Text from "../components/Text";
+import TimeText from "./components/TimeText";
+import ClockText from "./components/ClockText";
+
 const Calendar = () => {
-  const [day, date, month, year] = new Date().toUTCString().split(" ");
   return (
-    <div className={styles.layout}>
-      <Text text={day} />
-      <Text text={date} />
-      <Text text={month} />
-      <Text text={year} />
+    <div className={styles.parents_layout}>
+      <div className={styles.layout}>
+        {CurrentTime().map((v) => (
+          <TimeText text={v} />
+        ))}
+      </div>
+      <ClockText />
     </div>
   );
 };
