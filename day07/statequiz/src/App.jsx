@@ -1,10 +1,12 @@
-import Items from "./Item";
-
+import Item from "./molecules/Item";
 function App() {
   return (
-    <>
-      <Items />
-    </>
+    <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
+      <Item itemPrice={20000} />
+      <Item itemPrice={15000} />
+      <Item itemPrice={35000} />
+      <Item itemPrice={5000} />
+    </div>
   );
 }
 
