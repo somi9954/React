@@ -1,0 +1,25 @@
+.button {
+  border: none;
+  font-weight: bold;
+  padding: 10px 14px;
+  border-radius: 10px;
+}
+.sky {
+  background: #d8f3ff;
+  color: #2379ff;
+}
+
+.grey {
+  background: #646f7c;
+  color: #fff;
+}
+
+.white {
+  background: #fff;
+  color: #646f7c;
+}
+.trans {
+  background: #FFF;
+  border: 1px solid #000;
+  color: #646f7c
+}
