@@ -1,5 +1,5 @@
 const Address = (props) => {
-  return <span>{props.address}</span>;
+  return <span style={{ fontWeight: "bold", color: "#05141F" }}>{props.address}</span>;
 };
 
 export default Address;

@@ -1,11 +1,7 @@
-import Component from "./molecules/component";
+import Schedule from "./organism/Schedule";
 
 function App() {
-  return (
-    <>
-      <Component />
-    </>
-  );
+  return <Schedule />;
 }
 
 export default App;

@@ -2,18 +2,18 @@ const Status = (props) => {
   const statusObj = {
     confirmed: {
       name: "확정",
-      Dcolor: "#5D7D2B",
+      color: "#5D7D2B",
     },
     completed: {
       name: "완료",
-      Dcolor: "#9ba1a5",
+      color: "#9BA1A5",
     },
     need: {
       name: "확정필요",
-      Dcolor: "#",
+      color: "#EA0029",
     },
   };
-  return <span style={{}}>{statusObj[props.Status].name}</span>;
+  return <span style={{ fontSize: "14px", fontWeight: "bold", color: statusObj[props.status].color }}>{statusObj[props.status].name}</span>;
 };
 
 export default Status;
