@@ -22,7 +22,7 @@ function App() {
       }}
     >
       {data.map((v) => (
-        <Food key={v.id} image={v.image} name={v.name} />
+        <Food image={v.image} name={v.name} />
       ))}
     </div>
   );
