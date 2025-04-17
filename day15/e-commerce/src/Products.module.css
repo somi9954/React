@@ -1,0 +1,27 @@
+.card {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 40px 0;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card > span {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.card > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card > button {
+  border: none;
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 5px;
+}

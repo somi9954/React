@@ -1,0 +1,8 @@
+button {
+  border: none;
+  background-color: white;
+}
+
+.filter span {
+  padding-bottom: 5px;
+}
