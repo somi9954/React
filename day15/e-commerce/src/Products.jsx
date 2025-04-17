@@ -6,7 +6,7 @@ const Products = (props) => {
       <img src={props.thumbnail} alt="" />
       <span>{props.title}</span>
       <span>${props.price}</span>
-      <span>⭐{props.rating}</span>
+      <span style={{paddingBottom:"10px"}}>⭐{props.rating}</span>
       <button>select</button>
     </div>
   );
