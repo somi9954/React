@@ -5,4 +5,52 @@ button {
 
 .filter span {
   padding-bottom: 5px;
+  font-weight: bold;
+}
+
+.headerStyle {
+  display: flex;
+  border-bottom: 1px solid #eee;
+  justify-content: flex-start;
+  gap: 70px;
+  padding: 15px;
+  font-weight: bold;
+}
+.resetBtnStyle {
+  border: none;
+  background-color: white;
+  color: #d7d4d4;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+.btnStyle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 3px 0;
+}
+
+.btnStyle svg {
+  width: 28px;
+  height: 28px;
+}
+
+
+
+.section {
+  border-bottom: 2px solid #eee;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.noBorder {
+  border-bottom: none;
 }
